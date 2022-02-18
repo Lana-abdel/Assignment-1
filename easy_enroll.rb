@@ -62,7 +62,7 @@ class Easyenroll
         end #else append to a string
         runnable_class(courses,student,request)
       end
-      File.write("output1.csv", "Student ID: #{student.id}\n Enrolled in : #{student.enrollments}\n Reason: N/A\n", mode: 'a')
+      File.write("output2.csv", "Student ID: #{student.id}\n Enrolled in : #{student.enrollments}\n Reason: N/A\n", mode: 'a')
     end
     print_output_files courses
   end
@@ -124,6 +124,6 @@ class Easyenroll
       end
       s += "\n"
     end
-    File.write("output2.csv", s , mode: 'w+')
+    File.write("output1.csv", s , mode: 'w+')
   end
 end

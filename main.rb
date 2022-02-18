@@ -21,4 +21,5 @@ end
 #call course_registration
 enroll_students.course_registration(studentInfo,courseInfo)
 
-puts "The output files have been generated as (output1.csv and output2.csv)"
+puts "The output files have been generated as\noutput1.csv: which includes the courses report
+output2.csv: which includes the students report"
