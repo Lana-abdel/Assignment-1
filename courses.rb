@@ -6,7 +6,7 @@ class Course
         @min= min 
         @max= max
         @num_sections = num_sections 
-        @can_run = false 
+        @can_run = {}
         @seats_open = max 
         @open_sections = {}
     end 
