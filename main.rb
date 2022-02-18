@@ -13,9 +13,9 @@ puts "Please enter the file name containing all course information "
 courseInfo = gets.chomp
 #error handling if the files do not exist as the user to rerun and state the possible issues
 if (File.exist?(studentInfo) && File.exist?(courseInfo) && File.file?(studentInfo) && File.file?(courseInfo)) 
-    puts "the files exist and the program will proceed"
+    puts "The files exist and the program will proceed"
 else 
-    puts "the files either do not exit or are not in the correct format please rerun the program with file names in the current directory" 
+    puts "The files either do not exit or are not in the correct format please rerun the program with file names in the current directory" 
     exit 
 end  
 #call course_registration
