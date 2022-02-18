@@ -55,9 +55,9 @@ class Easyenroll
       enrolled = []
       requested_courses.each do |request|
         #check if already enrolled or if they have already been enrolled in 2 courses or if they had 0 as their desired number of courses 
-        if enrolled.include?(request) || enrolled.length == 2 || student.desired_courses < "1"
+        if enrolled.include?(request) || enrolled.length == 2 || student.desired_courses < "1" 
           next
-        end
+        end 
         if try_enroll(courses, student, request)
           enrolled << request
           open_seats(courses,request)
@@ -78,8 +78,8 @@ class Easyenroll
     for i in 0...course.sections.length
       section = course.sections[i]
       if (section.length < course.max)
-        section << student.id
-        student.enrollments << course.number + "-" + ("%02d" % (i + 1))  #add them into an array
+        section << student.id #add the student id into the section
+        student.enrollments << course.number + "-" + ("%02d" % (i + 1))  #add the course into the student's enrollements 
         return true
       end
     end

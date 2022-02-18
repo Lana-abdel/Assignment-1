@@ -14,8 +14,8 @@
 • Assumptions you have made: 
     1.A student who has desired 0 courses will not be placed in a course at all 
     2.A section's can_run value evaluates to false then it is implied that 
-    the students in the course are no longer in it because it won't run,
-    but they wil not be placed in alternate course
+    the students in that section are no longer in it because it won't run,
+    but they will not be placed in alternate course 
     3.A student will not request a course they have already taken 
     4.Students will only request courses they are eligible to take, and for which 
     they have met the prerequisites. 
@@ -33,5 +33,6 @@ Instructions for running the program.
     6. Then the output files will be in your directory (output1.txt and output2.txt)
 
 • Known bugs, issues or limitations. 
-    There are no known bugs or issues, however there are only 2 limitations of this program it doesn't consider students who only want one course, unless their desired number is 0 everyone is placed into a max of two courses
-    and this program doesn't keep track of the reason for why students did not get into a course.
+    There are no known bugs or issues, however there are only 3 limitations. The program does not take into account that the sections must be balanced, and 
+    and this program doesn't keep track of the reason for why students did not get into a course and does not take into account if students desired number of courses is 1 everyone is placed in atleast 2 unless their desired was 0. 
+    ***note I did not keep track of all my output files because I have the File.delete?(file) everytime I ran but I included the last two output files I tested with from inputs example.csv and course.csv and the output was not completely right*** 
