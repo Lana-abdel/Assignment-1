@@ -1,3 +1,5 @@
+# Lana Abdelmohsen 
+# Assignment-1
 class Course
     #class course that initializes a course object
     attr_accessor :number, :sections, :min, :max , :num_sections , :can_run, :seats_open, :open_sections 

@@ -1,3 +1,5 @@
+# Lana Abdelmohsen 
+# Assignment-1
 class Student 
     #class for students
     attr_accessor :id, :year, :completed_courses, :sems_left, :desired_courses , :first, :second, :third, :enrollments, :priority  
