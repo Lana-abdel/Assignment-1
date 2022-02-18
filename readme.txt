@@ -34,7 +34,7 @@ Instructions for running the program.
 
 • Known bugs, issues or limitations. 
     There are no known bugs or issues, however there are only 3 limitations. The program does not take into account that the sections must be balanced, and 
-    and this program doesn't keep track of the reason for why students did not get into a course and does not take into account if students desired number of courses is 1 everyone is placed in atleast 2
+    and this program doesn't keep track of the reason for why students did not get into a course and does not take into account if students desired number of courses is 1 everyone is placed in at least 2
      unless their desired was 0 or only 1 of the classes they listed is not full. Everything else is implemented. 
     ***note I did not keep track of all my output files because I have the File.delete?(file) everytime I ran but I included the last two output files I tested with from inputs example.csv 
     and course.csv and the output was not completely right*** 
