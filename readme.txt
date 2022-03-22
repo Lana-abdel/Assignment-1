@@ -1,5 +1,6 @@
 # Lana Abdelmohsen 
 # Assignment-1
+# date: 03-21-2022
 • Your VM name and password for the student1 account. 
     student2@csc415-server21.hpc.tcnj.edu, Lana2616 
 
@@ -33,10 +34,7 @@ Instructions for running the program.
     6. Then the output files will be in your directory (output1.txt and output2.txt)
 
 • Known bugs, issues or limitations. 
-    There are no known bugs or issues, however there is only 1 limitation. The functionality to balance the sections
-    has not been fully implemented. Students do not get enrolled to meet the max number of students that a course can take 
-    but are split over the sections to meet a little over the minimum. Even though this is not implemented completely it has allowed for a more 
-    balanced sections than was previously implemented. Everything else has been implemented. 
+    There are no known bugs or issues, however there is only 1 limitation. The functionality to balance the sections has not been fully implemented. Students do not get enrolled to meet the max number of students that a course can take  but are split over the sections to meet a little over the minimum. Even though this is not implemented completely it has allowed for a more  balanced section than was previously implemented. Everything else has been implemented. 
 
 • Revisions (03/21/2022)
 
@@ -54,3 +52,4 @@ Many revisions have been made as per the feedback received from the technical re
     10. In the student.rb file I created set values that static across all class
     instances for the priority calculations for a more secure and reliable approach
     11. I have added the structure for maintenance documentation for all source files as listed on canvas at the top of each file. 
+
