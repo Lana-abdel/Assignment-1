@@ -33,9 +33,9 @@ Instructions for running the program.
     6. Then the output files will be in your directory (output1.txt and output2.txt)
 
 • Known bugs, issues or limitations. 
-    There are no known bugs or issues, however there are is only 1 limitation. The functionality to balance the sections
+    There are no known bugs or issues, however there is only 1 limitation. The functionality to balance the sections
     has not been fully implemented. Students do not get enrolled to meet the max number of students that a course can take 
-    but are split over the sections to meet a little over the minimum. Eventhough this is not implemented completely it has allowed for a more 
+    but are split over the sections to meet a little over the minimum. Even though this is not implemented completely it has allowed for a more 
     balanced sections than was previously implemented. Everything else has been implemented. 
 
 • Revisions (03/21/2022)
@@ -44,18 +44,17 @@ Many revisions have been made as per the feedback received from the technical re
     1. Added functionality from the original requirements of the assignment that a student who desires one 
     course will only be placed in one if it is available
     2. Added functionality from the requirements of the assignment that a student will receive a reason why 
-    they did not get into a course and if they got all their desired courses they will receieve "N/A" as a reason
+    they did not get into a course and if they got all their desired courses they will receive "N/A" as a reason
     3.Attempted to add functionality to balance sections although it is not completely working as it fills up the 
     sections until the section's length has exceeded the minimum and then stops adding students. However excluding 
     this little limitation more sections can run now more students are placed in those sections
-    4.Indentation issues have been fixed for easier readibility
+    4.Indentation issues have been fixed for easier readability
     5.More through comments to describe the what each function does have been added before each function and a
-    new line to separate each function has also been added for easier readibility
+    new line to separate each function has also been added for easier readability
     6. Split up many functions in easy_enroll.rb as well as the main.rb to provide a more modular and reliable 
     approach (one function one task)
-    7. Graceful error handling has been provided. After each prompt for a file name the program checks if it exits 
-    rather than checking both files at once. Additionally, the program now prompts the user for another file
-    (if an error occurs with file name input) instead of existing out of the program completely
+    7. Graceful error handling has been provided. After each prompt for a file name the program checks if it exists 
+    rather than checking both files at once. Additionally, the program now prompts the user for another file (if an error occurs with file name input) instead of existing out of the program completely
     8. Asks for the output file names from the user instead of being hardcoded
     9. Fixed output file formats (for both files ) so that they are in a csv file format 
     10. In the student.rb file I created set values that static across all class
